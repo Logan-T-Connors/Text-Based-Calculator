@@ -5,12 +5,8 @@
 using namespace std;
 
 // all variables
-string userinput;
-string useroperation;
-string endchioce;
-double num1;
-double num2;
-double num3;
+string userinput, endchioce, useroperation;
+double num1, num2, result;
 
 void closingapp() {
 
@@ -48,7 +44,7 @@ void newcalculation() {
 
 		// if statement to see if the users input was valid
 		// if the users input is invalid then gives error statement
-		if (useroperation == "+" || "addition") {
+		if (useroperation == "+" || useroperation == "addition") {
 
 			cout << "You choose Addition\n";
 			cout << "Enter the First Number: ";
@@ -58,15 +54,15 @@ void newcalculation() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 + num2 = num3
-			num3 = num1 + num2;
+			// num1 + num2 = result
+			result = num1 + num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " + " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " + " << num2 << " = " << result << ".\n";
 			newcalculation();
 
-		} else if (useroperation == "-" || "subtraction") {
+		} else if (useroperation == "-" || useroperation == "subtraction") {
 
 			cout << "You choose Subtraction\n";
 			cout << "Enter the First Number: ";
@@ -76,15 +72,15 @@ void newcalculation() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 - num2 = num3
-			num3 = num1 - num2;
+			// num1 - num2 = result
+			result = num1 - num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " - " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " - " << num2 << " = " << result << ".\n";
 			newcalculation();
 
-		} else if (useroperation == "/" || "division") {
+		} else if (useroperation == "/" || useroperation == "division") {
 
 			cout << "You choose Division\n";
 			cout << "Enter the First Number: ";
@@ -94,15 +90,15 @@ void newcalculation() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 / num2 = num3
-			num3 = num1 / num2;
+			// num1 / num2 = result
+			result = num1 / num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " / " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " / " << num2 << " = " << result << ".\n";
 			newcalculation();
 
-		} else if (useroperation == "x" || "multiplication") {
+		} else if (useroperation == "x" || useroperation == "multiplication") {
 
 			cout << "You choose Multiplication\n";
 			cout << "Enter the First Number: ";
@@ -112,12 +108,12 @@ void newcalculation() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 * num2 = num3
-			num3 = num1 * num2;
+			// num1 * num2 = result
+			result = num1 * num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " x " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " x " << num2 << " = " << result << ".\n";
 			newcalculation();
 
 		} else {
@@ -177,7 +173,7 @@ int main() {
 
 		// if statement to see if the users input was valid
 		// if the users input is invalid then gives error statement
-		if (useroperation == "+" || "addition") {
+		if (useroperation == "+" || useroperation == "addition") {
 			
 			cout << "You choose Addition\n";
 			cout << "Enter the First Number: ";
@@ -187,15 +183,15 @@ int main() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 + num2 = num3
-			num3 = num1 + num2;
+			// num1 + num2 = result
+			result = num1 + num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " + " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " + " << num2 << " = " << result << ".\n";
 			newcalculation();
 
-		} else if (useroperation == "-" || "subtraction") {
+		} else if (useroperation == "-" || useroperation == "subtraction") {
 			
 			cout << "You choose Subtraction\n";
 			cout << "Enter the First Number: ";
@@ -205,15 +201,15 @@ int main() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 - num2 = num3
-			num3 = num1 - num2;
+			// num1 - num2 = result
+			result = num1 - num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " - " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " - " << num2 << " = " << result << ".\n";
 			newcalculation();
-			
-		} else if (useroperation == "/" || "division") {
+			 
+		} else if (useroperation == "/" || useroperation == "division") {
 
 			cout << "You choose Division\n";
 			cout << "Enter the First Number: ";
@@ -223,15 +219,15 @@ int main() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 / num2 = num3
-			num3 = num1 / num2;
+			// num1 / num2 = result
+			result = num1 / num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " / " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " / " << num2 << " = " << result << ".\n";
 			newcalculation();
 
-		} else if (useroperation == "x" || "multiplication") {
+		} else if (useroperation == "x" || useroperation == "multiplication") {
 			
 			cout << "You choose Multiplication\n";
 			cout << "Enter the First Number: ";
@@ -241,12 +237,12 @@ int main() {
 			cin >> num2;
 			cout << "\n";
 
-			// num1 * num2 = num3
-			num3 = num1 * num2;
+			// num1 * num2 = result
+			result = num1 * num2;
 			cout << "\n";
 
 			// display the answer
-			cout << num1 << " x " << num2 << " = " << num3 << ".\n";
+			cout << num1 << " x " << num2 << " = " << result << ".\n";
 			newcalculation();
 
 		} else {
