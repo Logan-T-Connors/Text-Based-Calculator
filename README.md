@@ -11,7 +11,7 @@
 ## Change log :
 ```diff
 v2:
-+ Fixed Logical Error in most Conditions
++ Fixed Logical Error in all Conditions
 + Changed all of the Variables "num3" to "result" for more Clarity
 + Refracted the Variables
 ```
