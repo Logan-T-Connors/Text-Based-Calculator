@@ -7,3 +7,11 @@
 - Division<br>
 - Multiplication<br>
 - Error Handling<br>
+
+## Change log :
+```diff
+v2:
++ Fixed Logical Error in most Conditions
++ Changed all of the Variables "num3" to "result" for more Clarity
++ Refracted the Variables
+```
