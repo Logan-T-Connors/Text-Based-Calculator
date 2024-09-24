@@ -8,10 +8,24 @@
 - Multiplication<br>
 - Error Handling<br>
 
+## Requirements :
+- [![Windows](https://img.shields.io/badge/Platform-Windows-0078d7.svg?style=flat)](https://en.wikipedia.org/wiki/Microsoft_Windows) ![Windows x64 Build](https://img.shields.io/badge/Windows-x64-4CAF50.svg)
+- [![C++](https://img.shields.io/badge/Language-C%2B%2B-%23f34b7d.svg?style=flat)](https://en.wikipedia.org/wiki/C%2B%2B)
+
+## Preview :
+Coming Soon
+
+## Installation :
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) <br> *Note: do not download yet*
+```
+Step 1: Download all files and extract to a folder
+Step 2: Run Text-Based-Calculator.exe
+```
+
 ## Change log :
 ```diff
-v2:
-+ Fixed Logical Error in all Conditions
-+ Changed all of the Variables "num3" to "result" for more Clarity
-+ Refracted the Variables
+v3:
++ Added and Changed Comments for more Clarity
++ Fixed Logical Errors for all Functions
++ Refracted some Functions
 ```
