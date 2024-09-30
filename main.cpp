@@ -6,7 +6,7 @@
 using namespace std;
 
 // Declaring Variables
-string userinput, endchioce, useroperation;
+string userinput, useroperation;
 float num1, num2, result;
 
 // Declaring Functions
