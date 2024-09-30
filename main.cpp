@@ -10,7 +10,7 @@ string userinput, endchioce, useroperation;
 float num1, num2, result;
 
 // Declaring Functions
-void closingapp(), errorq1(), errorop1(), divsionBy0();
+void closingapp(), errorq1(), errorop1(), divisionBy0();
 
 int main() 
 {
@@ -93,7 +93,7 @@ int main()
 				if (num2 == 0)
 				{
 
-					divsionBy0();
+					divisionBy0();
 
 				}
 
@@ -182,7 +182,7 @@ void errorop1()
 
 }
 
-void divsionBy0()
+void divisionBy0()
 {
 
 	cout << "\n\t\t You are not able to divide by 0";
