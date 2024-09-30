@@ -90,7 +90,7 @@ int main()
 				cout << "\n";
 
 				// if statement to handle division by 0 
-				if (num2 <= 0)
+				if (num2 == 0)
 				{
 
 					divsionBy0();
