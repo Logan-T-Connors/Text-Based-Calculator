@@ -28,10 +28,9 @@ Step 2: Run Text-Based-Calculator.exe
 
 ## Change log :
 ```diff
-v3:
-+ Added and Changed Comments for more Clarity
-+ Fixed Logical Errors for all Functions
-+ Refracted some Functions
+v4:
++ Fixed several bugs
++ Cleaned up code
 ```
 
 ## Feedback/Support :
