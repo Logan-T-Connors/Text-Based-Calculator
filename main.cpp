@@ -2,6 +2,7 @@
 #include <thread>
 #include <cstdlib>
 #include <string>
+#include <cctype>
 
 using namespace std;
 
@@ -45,8 +46,22 @@ int main()
 				cout << "\n\n\t You choose Addition";
 				cout << "\n\t Enter the First Number: ";
 				cin >> num1;
+
+				// Checking if the num1 is a number
+				if (isnan(num1))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\t Enter the Second Number: ";
 				cin >> num2;
+
+				// Checking if the num1 is a number
+				if (isnan(num2))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\n";
 
 				// num1 + num2 = result
@@ -60,8 +75,22 @@ int main()
 				cout << "\n\n\t You choose Subtraction";
 				cout << "\n\t Enter the First Number: ";
 				cin >> num1;
+
+				// Checking if the num1 is a number
+				if (isnan(num1))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\t Enter the Second Number: ";
 				cin >> num2;
+
+				// Checking if the num1 is a number
+				if (isnan(num2))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\n";
 
 				// num1 - num2 = result
@@ -75,9 +104,24 @@ int main()
 				cout << "\n\n\t You choose Division";
 				cout << "\n\t Enter the First Number: ";
 				cin >> num1;
+
+				// Checking if the num1 is a number
+				if (isnan(num1))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\t Enter the Second Number: ";
 				cin >> num2;
+
+				// Checking if the num1 is a number
+				if (isnan(num2))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\n";
+
 
 				// if statement to handle division by 0 
 				if (num2 == 0)
@@ -98,10 +142,24 @@ int main()
 				cout << "\n\n\t You choose Multiplication";
 				cout << "\n\t Enter the First Number: ";
 				cin >> num1;
-				cout << "\n";
+
+				// Checking if the num1 is a number
+				if (isnan(num1))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\t Enter the Second Number: ";
 				cin >> num2;
+
+				// Checking if the num1 is a number
+				if (isnan(num2))
+				{
+					cout << "\n\t The input is not a valid number.";
+				}
+				
 				cout << "\n";
+
 
 				// num1 * num2 = result
 				result = num1 * num2;
