@@ -83,7 +83,7 @@ int main()
 				getValidNumber(num2); // Use the new function to check if the number is valid
 
 				result = num1 - num2;
-				cout << "\t " << num1 << " + " << num2 << " = " << result << ".\n\n\n";
+				cout << "\t " << num1 << " - " << num2 << " = " << result << ".\n\n\n";
 			}
 			else if (useroperation == "/" || useroperation == "division")
 			{
@@ -102,7 +102,7 @@ int main()
 				else
 				{
 					result = num1 / num2;
-					cout << "\t " << num1 << " + " << num2 << " = " << result << ".\n\n\n";
+					cout << "\t " << num1 << " / " << num2 << " = " << result << ".\n\n\n";
 				}
 			}
 			else if (useroperation == "x" || useroperation == "multiplication")
@@ -115,7 +115,7 @@ int main()
 				getValidNumber(num2); // Use the new function to check if the number is valid
 
 				result = num1 * num2;
-				cout << "\t " << num1 << " + " << num2 << " = " << result << ".\n\n\n";
+				cout << "\t " << num1 << " x " << num2 << " = " << result << ".\n\n\n";
 
 			}
 			else
