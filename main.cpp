@@ -82,7 +82,7 @@ int main()
 				cout << "\t Enter the Second Number: ";
 				getValidNumber(num2); // Use the new function to check if the number is valid
 
-				result = num1 + num2;
+				result = num1 - num2;
 				cout << "\t " << num1 << " + " << num2 << " = " << result << ".\n\n\n";
 			}
 			else if (useroperation == "/" || useroperation == "division")
@@ -101,7 +101,7 @@ int main()
 				}
 				else
 				{
-					result = num1 + num2;
+					result = num1 / num2;
 					cout << "\t " << num1 << " + " << num2 << " = " << result << ".\n\n\n";
 				}
 			}
@@ -114,7 +114,7 @@ int main()
 				cout << "\t Enter the Second Number: ";
 				getValidNumber(num2); // Use the new function to check if the number is valid
 
-				result = num1 + num2;
+				result = num1 * num2;
 				cout << "\t " << num1 << " + " << num2 << " = " << result << ".\n\n\n";
 
 			}
@@ -140,7 +140,7 @@ void closingapp()
 	cout << "\n\n\t Closing Calculator";
 	cout << "\n\t Thank you for using my calculator. \n\t ";
 	this_thread::sleep_for(chrono::seconds(5));
-	exit(0);
+	return
 }
 
 // function for handling if the user types anything other then yes or no
